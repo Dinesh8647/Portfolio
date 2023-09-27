@@ -1,0 +1,57 @@
+name: my_portfolio
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  get_cli: 1.8.4
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/pngImages/
+    - assets/svgImages/
+
+
+  fonts:
+    - family: lexend_black
+      fonts:
+        - asset: assets/fonts/Lexend-Black.ttf
+    - family: lexend_bold
+      fonts:
+        - asset: assets/fonts/Lexend-Bold.ttf
+    - family: lexend_extra_bold
+      fonts:
+        - asset: assets/fonts/Lexend-ExtraBold.ttf
+    - family: lexend_extra_light
+      fonts:
+        - asset: assets/fonts/Lexend-ExtraLight.ttf
+    - family: lexend_light
+      fonts:
+        - asset: assets/fonts/Lexend-Light.ttf
+    - family: lexend_medium
+      fonts:
+        - asset: assets/fonts/Lexend-Medium.ttf
+    - family: lexend_regular
+      fonts:
+        - asset: assets/fonts/Lexend-Regular.ttf
+    - family: lexend_semi_bold
+      fonts:
+        - asset: assets/fonts/Lexend-SemiBold.ttf
+    - family: lexend_thin
+      fonts:
+        - asset: assets/fonts/Lexend-Thin.ttf
+
